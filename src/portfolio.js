@@ -1,4 +1,3 @@
-/* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -20,44 +19,41 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Yetnayet Lakew Aramde",
+  title: "Hi all, I'm Yetnayet",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Software Engineering BSc. student at Addis Ababa Science and Technology University, passionate about backend and mobile development, with experience in React.js, Next.js, Flutter, and more."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "src/containers/greeting/resume.pdf", // Resume download button will be enabled by local PDF file
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  github: "https://github.com/infangle",
+  linkedin: "https://www.linkedin.com/in/yetnayet-lakew-417441256",
   gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  gitlab: "",
+  facebook: "https://www.facebook.com/share/1L8fgsYXbP/?mibextid=LQQJ4d",
+  medium: "",
+  stackoverflow: "",
+  instagram: "https://www.instagram.com/yetia26?igsh=MTlwYmllazl1Y2pjZQ%3D%3D&utm_source=qr",
+  twitter: "http://twitter.com/LakewYetnayet",
+  hackerrank: "https://www.hackerrank.com/profile/lakewyetnayet93",
+  codeforces: "https://codeforces.com/profile/YetiA",
+  leetcode: "https://leetcode.com/YetiA/",
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Technical Skills",
+  subTitle: "Programming languages, frameworks, and tools I am proficient in",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Python, C++, Java, C#, JavaScript, Dart, Typescript"),
+    emoji("⚡ Next.js, React.js, Jest, MySQL, Figma, Flutter, Firebase, Git, Github")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -123,26 +119,27 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Addis Ababa Science and Technology University (AASTU)",
+      logo: "", // No logo provided
+      subHeader: "BSc. Software Engineering",
+      duration: "Mar 2022 – Jul 2026",
+      desc: "Dean's List (May 2024)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Relevant Coursework: Data Structures & Algorithms, Software Design & Architecture, Operating Systems, Computer Networks, Artificial Intelligence, Machine Learning, Distributed Systems, Computer Security"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Africa to Silicon Valley (A2SV)",
+      logo: "",
+      subHeader: "Advanced Algorithms & Data Structures Fellowship",
+      duration: "Nov 2023 – Nov 2024",
+      desc: "Mastered advanced Data Structures & Algorithms and Competitive Programming, achieving 90% in rigorous evaluations.",
+      descBullets: [
+        "Designed and iterated on a responsive e-banking UI (React.js, Next.js, Tailwind CSS), collaborating cross-functionally to align with backend APIs and user stories."
+      ]
     }
   ]
 };
@@ -171,32 +168,30 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Backend and Mobile Developer",
+      company: "Lion Green Solutions",
+      companylogo: "", // No logo provided
+      date: "Feb 2025 – Jun 2025",
+      desc: "Designed and implemented scalable database schemas for web backend using MongoDB, improving data retrieval speeds by 40% and reducing server response times by 150 milliseconds.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Single-handedly architected the mobile app's user interface, receiving commendation from the CTO for the app's intuitive design and contributing findings to fix the three biggest causes of crashes.",
+        "Collaborated cross-functionally with backend and admin portal developers, ensuring seamless integration and a cohesive user experience."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineering Intern",
+      company: "eskalate.io",
+      companylogo: "",
+      date: "Jul 2024 – Oct 2024",
+      desc: "Built a modular blog interface using React.js, Next.js, and Tailwind CSS, improving first-render load speed from ~1.2s to ~700ms.",
+      descBullets: [
+        "Orchestrated global state management with Redux, improved UI consistency across 6+ routes.",
+        "Facilitated deployment of a full-stack web app in a team of 5, managing version control and code reviews via Git/GitHub.",
+        "Reviewed 10+ pull requests with 100% CI pass rate, ensuring clean, testable code and maintaining team standards."
+      ]
     }
   ]
 };
@@ -212,95 +207,48 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some projects I have worked on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: "", // No image provided
+      projectName: "Class Scheduling System",
+      projectDesc: "Led a team of 6 to build an Automated Class Scheduling System for AASTU, orchestrating full-stack integration (Java backend, React frontend, MySQL). Reduced scheduling conflicts by over 50% by designing and applying conflict resolution algorithms.",
+      footerLink: []
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: "",
+      projectName: "ProLink",
+      projectDesc: "Architected ProLink, a real-time mobile application (Flutter) for project collaboration and skill-sharing. Integrated a job search & project marketplace leveraging Firebase, enabling students to monetize projects and find opportunities. Secured 3rd Place at AASTU Tech Fest.",
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements and Leadership 🏆"),
+  subtitle: "Awards and leadership roles I have earned and held",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title: "Top 8 Innovator",
+      subtitle: "Ranked among the top 8 semifinalists out of 40+ teams for pioneering a creative and effective solution at A2SV internal Hackathon.",
+      image: "",
+      imageAlt: "",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Cohort Lead",
+      subtitle: "Led a cohort of 50+ students in a game development bootcamp.",
+      image: "",
+      imageAlt: "",
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -373,7 +321,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "lakewyetnayet93@gmail.com"
 };
 
 // Twitter Section
